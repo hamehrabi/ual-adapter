@@ -1,0 +1,30 @@
+# Read the Docs configuration file for UAL Adapter
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+
+version: 2
+
+# Build documentation in the docs/ directory with Sphinx
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.11"
+  jobs:
+    post_install:
+      - pip install -e .
+
+# Sphinx configuration
+sphinx:
+  configuration: docs/source/conf.py
+  fail_on_warning: false
+
+# Python requirements for building docs
+python:
+  install:
+    - requirements: docs/requirements.txt
+    - method: pip
+      path: .
+
+# Output formats
+formats:
+  - pdf
+  - epub
