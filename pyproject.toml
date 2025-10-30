@@ -10,10 +10,10 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [
-    {name = "Your Name", email = "your.email@example.com"},
+    {name = "UAL Adapter Contributors"},
 ]
 maintainers = [
-    {name = "Your Name", email = "your.email@example.com"},
+    {name = "UAL Adapter Contributors"},
 ]
 keywords = [
     "deep-learning",
@@ -84,11 +84,11 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/ual-adapter"
+Homepage = "https://github.com/hamehrabi/ual-adapter"
 Documentation = "https://ual-adapter.readthedocs.io"
-Repository = "https://github.com/yourusername/ual-adapter.git"
-Issues = "https://github.com/yourusername/ual-adapter/issues"
-Changelog = "https://github.com/yourusername/ual-adapter/blob/main/CHANGELOG.md"
+Repository = "https://github.com/hamehrabi/ual-adapter.git"
+Issues = "https://github.com/hamehrabi/ual-adapter/issues"
+Changelog = "https://github.com/hamehrabi/ual-adapter/blob/main/CHANGELOG.md"
 
 [project.scripts]
 ual-adapter = "ual_adapter.cli:main"
