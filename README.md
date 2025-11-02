@@ -1,5 +1,7 @@
 # Universal Adapter LoRA (UAL)
 
+Article: [Universal Adapter LoRA (UAL) for Architecture-Agnostic Transfer](https://ai.vixra.org/abs/2510.0074)
+
 A Python package for creating portable, architecture-agnostic LoRA adapters that can be transferred across different model families without retraining.
 
 ## Features
@@ -67,6 +69,10 @@ The package consists of several key components:
 ## Documentation
 
 Full documentation available at [https://ual-adapter.readthedocs.io](https://ual-adapter.readthedocs.io)
+
+## Contributing
+
+If you're interested in contributing, please reach out via email: [mehrabi.hamed@outlook.com](mailto:mehrabi.hamed@outlook.com)
 
 ## License
 
